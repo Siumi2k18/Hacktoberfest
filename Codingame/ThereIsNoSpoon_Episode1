@@ -7,7 +7,7 @@ var height = parseInt(readline()); // the number of cells on the Y axis
 
 var grid = [];
 
-for (var y = 0; y < height; y++) {
+for (var z = 0; z < height; z++) {
     grid[y] = readline().split("");
 }
 
